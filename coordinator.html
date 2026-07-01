@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AILA academy</title> 
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="coor.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <div class="header__inner">
+                <a href="index.html"><img src="images/AilaLogo.png" class="logo"></a> 
+                <h3 class="name">AILA Academy</h3>
+            </div>
+            <button class="burger" id="burger">
+              ☰
+            </button>
+                <nav class="navigation" id="nav">
+                    <a href="index.html" class="navOption">Home</a>
+                    <a href="reg.html" class="navOption">Sign up</a>
+                    <a href="partnership.html" class="navOption">Become a Partner</a>
+                </nav>
+        </header>
+        <main>
+                <div class="registration__texts">
+                    <h1 class="main__text">Registration</h1>
+                    <p class="secondary__text">Fill out the form and join AILA Academy</p>
+                </div>
+                <div class="registration">
+                <div class="progress">
+                    <div class="step active"></div>
+                    <div class="step"></div>
+                    <div class="step"></div>
+                    <div class="step"></div>
+                </div>
+
+                    <form id="form">
+
+                            <div class="page active">
+                                <h3 class="page__text">Have you ever led a team, organized events, or managed a project?</h3>
+                                <div class="options">
+                                <label class="option">
+                                    <input type="radio" name="exp" value="Yes">
+                                    Yes
+                                </label>
+
+                                <label class="option">
+                                    <input type="radio" name="exp" value="No">
+                                    No
+                                </label>
+                                </div>
+                            </div>
+                            <div class="page">
+                                <h3 class="page__text">Which skills best describe you?</h3>
+                                <div class="options">
+                                <label class="option">
+                                    <input type="radio" name="skill" value="Leadership">
+                                    Leadership
+                                </label>
+                                <label class="option">
+                                    <input type="radio" name="skill" value="Communication">
+                                    Communication
+                                </label>
+                                <label class="option">
+                                    <input type="radio" name="skill" value="Project Management">
+                                    Project Management
+                                </label>
+                                <label class="option">
+                                    <input type="radio" name="skill" value="Public Speaking">
+                                    Public Speaking
+                                </label>
+                                <label class="option">
+                                    <input type="radio" name="skill" value="Event Organization">
+                                    Event Organization
+                                </label>
+                                <label class="option">
+                                    <input type="radio" name="skill" value="Social Media">
+                                    Social Media
+                                </label>
+                                <label class="option">
+                                    <input type="radio" name="skill" value="Programming">
+                                    Programming
+                                </label>
+                                <label class="option">
+                                    <input type="radio" name="skill" value="Marketing">
+                                    Marketing
+                                </label>
+                                
+                                </div>
+                            </div>
+                            <div class="page">
+                                <h3 class="page__text">How much time can you dedicate each week?</h3>
+                                <div class="options">
+                                    <label class="option">
+                                        <input type="radio" name="workHours" value="3-5h">
+                                        3-5h
+                                    </label>
+                                    <label class="option">
+                                        <input type="radio" name="workHours" value="5-8h">
+                                        5-8h
+                                    </label>
+                                    <label class="option">
+                                        <input type="radio" name="workHours" value="8-10h">
+                                        8-10h
+                                    </label>
+                                    <label class="option">
+                                        <input type="radio" name="workHours" value="10h+">
+                                        10+h
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="page">
+                                <h3 class="page__text">Contact Information</h3>
+                            <div class="contacts">
+                                <label>Name<br>
+                                <input
+                                class="contact__line"
+                                    type="text"
+                                    placeholder="Your name"
+                                    name="fullname"
+                                    required
+                                >
+                                </label>
+                                <label>Phone<br>
+                                <input
+                                class="contact__line"
+                                type="tel"
+                                placeholder="+7(___)___-__-__"
+                                name="phone"
+                                required
+                                >
+                                </label>
+                                <label>Email<br>
+                                <input
+                                class="contact__line"
+                                    type="email"
+                                    placeholder="email@example.com"
+                                    name="email"
+                                    required
+                                >
+                                </label>
+                            </div>
+                            </div>
+                            <div class="buttons">
+                                <button type="button" id="prev">< Back</button>
+                                <button type="button" id="next">Next ></button>
+                            </div>
+                    </form>
+                </div>
+        </main>
+        <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-column">
+            <h3>AILA Academy</h3>
+            <p>
+                An international educational initiative uniting
+                students and volunteers from 11+ countries worldwide.
+            </p>
+            </div>
+
+            <div class="footer-column">
+            <h4>Navigation</h4>
+            <ul>
+                <li><a href="#index.html">Home</a></li>
+                <li><a href="#reg.html">Registration</a></li>
+                <li><a href="#partnership.html">Become a Partner</a></li>
+            </ul>
+            </div>
+
+            <div class="footer-column">
+            <h4>Contacts</h4>
+
+            <div class="contact-item">
+                <i data-lucide="mail"></i>
+                <span>aila.academy.kz@gmail.com</span>
+            </div>
+
+            <div class="contact-item">
+                <i data-lucide="phone"></i>
+                <span>+77789378331</span>
+            </div>
+
+            <div class="contact-item">
+                <i data-lucide="globe"></i>
+                <span>11+ countries worldwide</span>
+            </div>
+            </div>
+
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+            © 2026 AILA Academy. All rights reserved.
+        </div>
+        </footer>
+
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script>
+        lucide.createIcons();
+        </script>
+</body>
